@@ -82,7 +82,7 @@ h2 {
 }
 
 h3 {
-	font-size: 1.4em;
+	font-size: 1.6em;
 	margin-bottom: 0.3em;
 	margin-top: 0.3em;
 	font-weight: normal;
@@ -109,7 +109,7 @@ h3 {
 	}
 
 	.okusi {
-		margin-top: 0.4;
+		margin-top: 0.4em;
 		grid-column-start: 1;
 		grid-column-end: 5;
 	}
@@ -122,7 +122,7 @@ h3 {
 		font-size: 2.2em;
 	}
 	h3 {
-		font-size: 1.6em;
+		font-size: 1.5em;
 	}
 }
 
@@ -143,6 +143,7 @@ h3 {
 		grid-column-start: 1;
 		grid-column-end: 7;
 		margin-right: 0em;
+		margin-top: 0em;
 	}
 
 	.naslov{
@@ -193,6 +194,9 @@ h3 {
 	}
 	.sladoledarnica{
 		margin-top: 2.4em;
+	}
+	.okusi {
+		margin-top: 0px;
 	}
 
 	h1 {
