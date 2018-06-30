@@ -8,7 +8,6 @@ body {
 	letter-spacing: 0.06em;
 	cursor: -webkit-image-set(url("cursor.png") 1x, url("cursor@2x.png") 2x) 0 0, pointer;
 	font-variant: oldstyle-nums;
-
 }
 
 .tooltip{
@@ -82,15 +81,11 @@ body {
 }
 
 .linijamobile {
-	margin-right: 0.5em;
+	margin-right: -5px;
 }
 
 .linijatablet {
-	margin-right: 0.5em;
-}
-
-.linijadesktop {
-	margin-right: 0.5em;
+	margin-right: -5px;
 }
 
 .okus {
@@ -122,6 +117,7 @@ body {
 
 h1 {
 	font-family: 'Abril Fatface', cursive;
+	letter-spacing: 0;
 	font-weight: normal;
 	font-size: 18em;
 	margin: 0;
