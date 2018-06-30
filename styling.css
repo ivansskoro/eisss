@@ -51,6 +51,15 @@ html {
 	margin-right: 2em;
 }
 
+.divider{
+height: 1em;
+	grid-column-start: 1;
+	grid-column-end: 7;
+	background-image: url(divider.svg);
+	background-position: left;
+	background-repeat: repeat-x;
+}
+
 .okus {
 		display: flex;
 		justify-content: space-between;
@@ -58,6 +67,7 @@ html {
 
 .smallcapsh2 {
 	font-variant: small-caps;
+	font-weight: 500;
 }
 
 .smallcapsh3 {
@@ -119,7 +129,7 @@ h3 {
 	}
 
 	.okusi {
-		margin-top: 0.4em;
+		margin-top: 0.8em;
 		grid-column-start: 1;
 		grid-column-end: 5;
 	}
@@ -141,6 +151,7 @@ h3 {
 	.podnaslov{
 		grid-column-start: 1;
 	  grid-column-end: 7;
+		margin-right: 0em;
 	}
 
 	.sladoledarnica{
@@ -153,7 +164,7 @@ h3 {
 		grid-column-start: 1;
 		grid-column-end: 7;
 		margin-right: 0em;
-		margin-top: 0em;
+		margin-top: 0.5em;
 	}
 
 	.naslov{
@@ -196,6 +207,9 @@ h3 {
 
 @media screen and (max-width : 420px)
 {
+	body {
+		padding: 10px;
+	}
 	.naslov{
 		margin-top: 0.8em;
 	}
@@ -204,13 +218,16 @@ h3 {
 	}
 	.sladoledarnica{
 		margin-top: 2.7em;
+		padding-left: 10px;
+		padding-right: 10px;
 	}
 	.okusi {
-		margin-top: 0px;
+		padding-left: 10px;
+		padding-right: 10px;
 	}
 
 	h1 {
-		font-size: 5em;
+		font-size: 5.5em;
 	}
 
 	h2 {
