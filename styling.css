@@ -6,6 +6,11 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	font-family: 'Roboto', sans-serif;
 	letter-spacing: 0.07em;
+	cursor: url(cursor.png), pointer;
+}
+
+html {
+    cursor: url(cursor.png), pointer;
 }
 
 .wrapper {
