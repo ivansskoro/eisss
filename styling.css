@@ -76,11 +76,21 @@ body {
 	height: 2em;
 	grid-column-start: 1;
 	grid-column-end: 7;
-	background-image: url(divider.svg);
-	background-position: bottom left;
-	background-repeat: repeat-x;
 	cursor: -webkit-image-set(url("cursorbox.png") 1x, url("cursorbox@2x.png") 2x) 0 0, pointer;
 	margin-bottom: 2em;
+	display: inline-block;
+}
+
+.linijamobile {
+	margin-right: 0.5em;
+}
+
+.linijatablet {
+	margin-right: 0.5em;
+}
+
+.linijadesktop {
+	margin-right: 0.5em;
 }
 
 .okus {
@@ -196,6 +206,10 @@ h3 {
 		margin-top: 1.5em;
 	}
 
+	.linijadesktop{
+	 visibility: hidden;
+	 margin-right: 0.5em
+	}
 	h1 {
 		font-size: 9em;
 	}
@@ -218,6 +232,9 @@ h3 {
 	}
 	.sladoledarnica{
 		margin-top: 3.6em;
+	}
+	.linijatablet{
+	 visibility: hidden;
 	}
 	h1 {
 		font-size: 7em;
