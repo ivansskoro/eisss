@@ -97,7 +97,7 @@ h3 {
 {
 
 	.naslov{
-		margin-top: 1.5em;
+		margin-top: 1em;
 	}
 
 	.podnaslov{
@@ -108,7 +108,7 @@ h3 {
 	}
 
 	.sladoledarnica{
-		margin-top: 4em;
+		margin-top: 5em;
 		grid-column-start: 1;
 	  grid-column-end: 6;
 	}
@@ -192,13 +192,13 @@ h3 {
 @media screen and (max-width : 420px)
 {
 	.naslov{
-		margin-top: 1em;
+		margin-top: 0.8em;
 	}
 	.podnaslov{
 		margin-top: -1em;
 	}
 	.sladoledarnica{
-		margin-top: 2.4em;
+		margin-top: 2.7em;
 	}
 	.okusi {
 		margin-top: 0px;
