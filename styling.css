@@ -6,11 +6,12 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	font-family: 'Roboto', sans-serif;
 	letter-spacing: 0.07em;
-	cursor: url(cursor.png), pointer;
+	cursor: -webkit-image-set(url("cursor.png") 1x, url("cursor@2x.png") 2x) 0 0, pointer;
+
 }
 
 html {
-    cursor: url(cursor.png), pointer;
+    cursor: -webkit-image-set(url("cursor.png") 1x, url("cursor@2x.png") 2x) 0 0, pointer;
 }
 
 .wrapper {
