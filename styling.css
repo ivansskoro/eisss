@@ -19,18 +19,24 @@ body {
     visibility: hidden;
     background-color: pink;
     padding: 0.5em;
-		font-size: 0.5em;
+		font-weight: 400;
+		font-size: 20px;
 		position: absolute;
-    z-index: 1;
 		margin-left: -3em;
 		margin-top: -1em;
-		transform: rotate(6deg);
+		transform: rotate(4deg);
+		font-variant: normal;
+}
+
+.blue {
+	background-color: skyblue;
+	color: white;
+	transform: rotate(-2deg);
 }
 
 .tooltip:hover .tooltiptext {
     visibility: visible;
 }
-
 
 .wrapper {
 	margin: 0 auto;
@@ -73,7 +79,8 @@ body {
 	background-image: url(divider.svg);
 	background-position: bottom left;
 	background-repeat: repeat-x;
-		cursor: -webkit-image-set(url("cursorbox.png") 1x, url("cursorbox@2x.png") 2x) 0 0, pointer;
+	cursor: -webkit-image-set(url("cursorbox.png") 1x, url("cursorbox@2x.png") 2x) 0 0, pointer;
+	margin-bottom: 2em;
 }
 
 .okus {
@@ -84,6 +91,8 @@ body {
 .smallcapsh2 {
 	font-variant: small-caps;
 	font-weight: 500;
+	display: inline-block;
+	margin-bottom: 0.1em;
 }
 
 .smallcapsh3 {
