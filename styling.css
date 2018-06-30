@@ -11,9 +11,6 @@ body {
 
 }
 
-html {
-    cursor: -webkit-image-set(url("cursor.png") 1x, url("cursor@2x.png") 2x) 0 0, pointer;
-}
 
 .tooltiptext {
     visibility: hidden;
@@ -31,6 +28,9 @@ html {
     visibility: visible;
 }
 
+.tooltip{
+	cursor: -webkit-image-set(url("cursorhover.png") 1x, url("cursorhover@2x.png") 2x) 0 0, pointer;
+}
 
 .wrapper {
 	margin: 0 auto;
