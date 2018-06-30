@@ -11,6 +11,9 @@ body {
 
 }
 
+.tooltip{
+	cursor: -webkit-image-set(url("cursorhover.png") 1x, url("cursorhover@2x.png") 2x) 0 0, pointer;
+}
 
 .tooltiptext {
     visibility: hidden;
@@ -28,9 +31,6 @@ body {
     visibility: visible;
 }
 
-.tooltip{
-	cursor: -webkit-image-set(url("cursorhover.png") 1x, url("cursorhover@2x.png") 2x) 0 0, pointer;
-}
 
 .wrapper {
 	margin: 0 auto;
@@ -67,12 +67,13 @@ body {
 }
 
 .divider{
-height: 2em;
+	height: 2em;
 	grid-column-start: 1;
 	grid-column-end: 7;
 	background-image: url(divider.svg);
 	background-position: bottom left;
 	background-repeat: repeat-x;
+		cursor: -webkit-image-set(url("cursorbox.png") 1x, url("cursorbox@2x.png") 2x) 0 0, pointer;
 }
 
 .okus {
