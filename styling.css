@@ -15,6 +15,21 @@ html {
     cursor: -webkit-image-set(url("cursor.png") 1x, url("cursor@2x.png") 2x) 0 0, pointer;
 }
 
+.tooltiptext {
+    visibility: hidden;
+    background-color: pink;
+    padding: 0.5em;
+		font-size: 0.5em;
+		position: absolute;
+    z-index: 1;
+		margin-left: -3em;
+		margin-top: -1em;
+		transform: rotate(6deg);
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
 
 
 .wrapper {
