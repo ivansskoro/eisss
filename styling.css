@@ -7,6 +7,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 	letter-spacing: 0.07em;
 	cursor: -webkit-image-set(url("cursor.png") 1x, url("cursor@2x.png") 2x) 0 0, pointer;
+	font-variant: oldstyle-nums;
 
 }
 
