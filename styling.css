@@ -5,7 +5,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	font-family: 'Roboto', sans-serif;
-	letter-spacing: 0.06em;
+	letter-spacing: 0.05em;
 	cursor: -webkit-image-set(url("cursor.png") 1x, url("cursor@2x.png") 2x) 0 0, pointer;
 	font-variant: oldstyle-nums;
 }
@@ -55,24 +55,25 @@ body {
   grid-column-end: 7;
 	margin-top: -4em;
 	margin-left: 4em;
+	margin-bottom: 3em;
 	text-align: right;
 }
 .sladoledarnica{
-	margin-top: 4em;
+	margin-top: 2em;
 	grid-column-start: 1;
   grid-column-end: 5;
 }
 
 .okusi {
-	margin-top: 1em;
+	margin-top: 0.5em;
 	grid-column-start: 1;
 	grid-column-end: 4;
-	margin-bottom: 0.5em;
+	margin-bottom: 0em;
 	margin-right: 2em;
 }
 
 .divider{
-	height: 2em;
+	height: 1.2em;
 	grid-column-start: 1;
 	grid-column-end: 7;
 	cursor: -webkit-image-set(url("cursorbox.png") 1x, url("cursorbox@2x.png") 2x) 0 0, pointer;
@@ -80,9 +81,14 @@ body {
 	display: inline-block;
 }
 
+.linija {
+	margin-right: -5px;
+}
+
 .linijamobile {
 	margin-right: -5px;
 }
+
 
 .linijatablet {
 	margin-right: -5px;
@@ -91,6 +97,8 @@ body {
 .okus {
 		display: flex;
 		justify-content: space-between;
+		margin-top: 2px;
+		margin-bottom: 2px;
 }
 
 .smallcapsh2 {
@@ -151,18 +159,27 @@ h3 {
 	  grid-column-end: 7;
 		margin-right: 1em;
 		margin-top: -2em;
+		margin-bottom: 3em;
 	}
 
 	.sladoledarnica{
-		margin-top: 5em;
+		margin-top: 2em;
 		grid-column-start: 1;
 	  grid-column-end: 6;
+		padding-left: 20px;
+		padding-right: 20px;
 	}
 
 	.okusi {
 		margin-top: 0.8em;
 		grid-column-start: 1;
 		grid-column-end: 5;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.divider {
+		padding-left: 20px;
 	}
 
 	h1 {
@@ -183,12 +200,15 @@ h3 {
 		grid-column-start: 1;
 	  grid-column-end: 7;
 		margin-right: 0em;
+		margin-bottom: 3em;
 	}
 
 	.sladoledarnica{
-		margin-top: 4em;
+		margin-top: 1.6em;
 		grid-column-start: 1;
 	  grid-column-end: 7;
+		padding-left: 20px;
+		padding-right: 20px;
 	}
 
 	.okusi {
@@ -196,6 +216,12 @@ h3 {
 		grid-column-end: 7;
 		margin-right: 0em;
 		margin-top: 0.5em;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.divider {
+		padding-right: 20px;
 	}
 
 	.naslov{
@@ -225,9 +251,10 @@ h3 {
 	}
 	.podnaslov{
 		margin-top: -1em;
+		margin-bottom: 3em;
 	}
 	.sladoledarnica{
-		margin-top: 3.6em;
+		margin-top: 1em;
 	}
 	.linijatablet{
 	 visibility: hidden;
@@ -253,9 +280,10 @@ h3 {
 	}
 	.podnaslov{
 		margin-top: -1em;
+		margin-bottom: 1.6em;
 	}
 	.sladoledarnica{
-		margin-top: 2.7em;
+		margin-top: 1em;
 		padding-left: 10px;
 		padding-right: 10px;
 	}
@@ -263,6 +291,11 @@ h3 {
 		padding-left: 10px;
 		padding-right: 10px;
 	}
+
+	.divider
+	{
+	 padding-left: 10px;
+ }
 
 	h1 {
 		font-size: 5.5em;
@@ -274,4 +307,15 @@ h3 {
 	h3 {
 		font-size: 1.2em;
 	}
+
+	.ocjena {
+		min-width: 70px;
+		text-align: right;
+	}
+}
+
+@media screen and (max-width : 350px) {
+.linijamobile {
+	visibility: hidden;
+}
 }
