@@ -77,7 +77,8 @@ body {
 	grid-column-start: 1;
 	grid-column-end: 7;
 	cursor: -webkit-image-set(url("cursorbox.png") 1x, url("cursorbox@2x.png") 2x) 0 0, pointer;
-	margin-bottom: 2em;
+	margin-top: 1em;
+	margin-bottom: 1em;
 	display: inline-block;
 }
 
@@ -147,6 +148,13 @@ h3 {
 	font-weight: normal;
 }
 
+h4 {
+	font-size: 1.2em;
+	margin-bottom: 0.3em;
+	margin-top: 0.3em;
+	font-weight: normal;
+}
+
 @media screen and (max-width : 970px)
 {
 
@@ -190,7 +198,10 @@ h3 {
 		font-size: 2.2em;
 	}
 	h3 {
-		font-size: 1.5em;
+		font-size: 1.6em;
+	}
+	h4 {
+		font-size: 1.3em;
 	}
 }
 
@@ -242,6 +253,9 @@ h3 {
 	h3 {
 		font-size: 1.6em;
 	}
+	h4 {
+		font-size: 1.3em;
+	}
 }
 
 @media screen and (max-width : 510px)
@@ -267,6 +281,9 @@ h3 {
 	}
 	h3 {
 		font-size: 1.2em;
+	}
+	h4 {
+		font-size: 1em;
 	}
 }
 
@@ -306,6 +323,9 @@ h3 {
 	}
 	h3 {
 		font-size: 1.2em;
+	}
+	h4 {
+		font-size: 1em;
 	}
 
 	.ocjena {
