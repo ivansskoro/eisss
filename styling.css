@@ -136,6 +136,10 @@ footer{
 		margin-bottom: 2px;
 }
 
+.sirokiokus {
+	max-width: 83%;
+}
+
 .smallcapsh2 {
 	font-variant: small-caps;
 	font-weight: 500;
