@@ -95,8 +95,8 @@ footer{
 	grid-column-start: 1;
 	grid-column-end: 7;
 	cursor: -webkit-image-set(url("cursorbox.png") 1x, url("cursorbox@2x.png") 2x) 0 0, pointer;
-	margin-top: 2em;
-	margin-bottom: 4em;
+	margin-top: 0;
+	margin-bottom: 2em;
 	display: inline-block;
 }
 
